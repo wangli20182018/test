@@ -18,4 +18,10 @@ public class Hello {
         System.out.println("fffff6666");
         return "Hello World!9999";
     }
+
+    @RequestMapping("/world4")
+    public String helloWorld4() {
+        System.out.println("fffff");
+        return "Hello World!9999";
+    }
 }
