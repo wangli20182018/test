@@ -9,7 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
     @RequestMapping("/world")
     public String helloWorld() {
-        System.out.println("fffff");
+        System.out.println("fffff6666");
+        return "Hello World!9999";
+    }
+
+    @RequestMapping("/world3")
+    public String helloWorld3() {
+        System.out.println("fffff6666");
         return "Hello World!9999";
     }
 }
